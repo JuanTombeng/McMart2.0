@@ -1,4 +1,4 @@
-const userid = $("input[name*='userId']");
+var userid = $("input[name*='userId']");
 //id.attr("readonly","readonly");
 
 

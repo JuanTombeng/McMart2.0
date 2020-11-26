@@ -63,7 +63,7 @@
 
         try {
             require('includes/db.inc.php');
-            $query = "INSERT INTO McMart.Products (ProductId, DateAdded, SKU, Name, Price, Status, PictureURI, StockAmount, ProductDesc)      ";
+            $query = "INSERT INTO Products (ProductId, DateAdded, SKU, Name, Price, Status, PictureURI, StockAmount, ProductDesc)      ";
             $query .= "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)";
             $q = mysqli_stmt_init($conn);
             mysqli_stmt_prepare($q, $query);
